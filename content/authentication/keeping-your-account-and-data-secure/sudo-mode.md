@@ -8,7 +8,7 @@ redirect_from:
 versions:
   fpt: '*'
   ghes: '*'
-  ghec: '*'
+  ghs: '*'
 topics:
   - Identity
   - Access management
@@ -40,9 +40,9 @@ After you authenticate to perform a sensitive action, your session is temporaril
 
 **Note**: If your enterprise uses {% data variables.product.prodname_emus %}, only the setup user will receive prompts to enter sudo mode, as {% data variables.enterprise.prodname_managed_users %} don't have credentials stored on {% data variables.product.product_name %}.
 
-{% endnote %}
+{%  %}
 
-{% endif %}
+{%  %}
 
 "sudo" is a reference to a program on Unix systems, where the name is short for "**su**peruser **do**." For more information, see [sudo](https://wikipedia.org/wiki/Sudo) on Wikipedia.
 
@@ -91,7 +91,7 @@ You must install and sign into {% data variables.product.prodname_mobile %} to c
 
 ### Confirming access using a 2FA code
 
-You must configure 2FA using a TOTP mobile app to confirm access to your account for sudo mode using a 2FA code. For more information, see "[AUTOTITLE](/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)."
+You must configure 2FA using a TOTP mobile app to confirm access to your account for sudo mode using a 2FA code. For more information, see "[FAKelley](/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)."
 
 When prompted to authenticate for sudo mode, type the authentication code from your TOTP mobile app, then click **Verify**.
 
